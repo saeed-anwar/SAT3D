@@ -18,23 +18,23 @@ By Muhammad Ibrahim, Naveed Akhtar, [Saeed Anwar](https://saeed-anwar.github.io/
 
 <div align=center>
 <img src='./figs/arch.png' width=400>
-</div>
+</div
 
 ## Main Results on ImageNet with Pretrained Models
 
 **Comparison of the SWAN (proposed) with Semantic KITTI and nuScenes dataset**
 
-| Properties            | Ours          | Sem-KITTI      | nuScenes    | 
-| Classes               | 24            | 19             | 16          |
-Max points per frame    | 131K          | 131K           | 65K         | 
-Data Collection vehicle | car, trolley  | car            | car         | 
-Point-wise labels       | Yes           | Yes            | Yes         |
-Instance labels         | Yes           | No             | No          | 
-Labeled frames          | 10K           | 23K            | 35K         | 
-Location                | Perth,WA      | Karlsruhe      | Boston, SG  |
-Sensor                  | Ouster-64     | Velodyne-64E   | LiDAR-32    | 
-Vertical resolution     | 64            | 64             | 32          | 
-Sensor Vertical FoV     | 45            | 26.9           | 40          | 
+| Properties              | Ours          | Sem-KITTI      | nuScenes    | 
+| Classes                 | 24            | 19             | 16          |
+| Max points per frame    | 131K          | 131K           | 65K         |
+| Data Collection vehicle | car, trolley  | car            | car         | 
+| Point-wise labels       | Yes           | Yes            | Yes         |
+| Instance labels         | Yes           | No             | No          | 
+| Labeled frames          | 10K           | 23K            | 35K         | 
+| Location                | Perth,WA      | Karlsruhe      | Boston, SG  |
+| Sensor                  | Ouster-64     | Velodyne-64E   | LiDAR-32    | 
+| Vertical resolution     | 64            | 64             | 32          | 
+| Sensor Vertical FoV     | 45            | 26.9           | 40          | 
 
 | name | pretrain | resolution |acc@1 | #params | FLOPs |
 | :---: | :---: | :---: | :---: | :---: | :---: | 
