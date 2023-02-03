@@ -37,9 +37,9 @@ By Muhammad Ibrahim, Naveed Akhtar, [Saeed Anwar](https://saeed-anwar.github.io/
 | Sensor Vertical FoV     | 45            | 26.9           | 40          | 
 
 
-### Citation
+### Citations
 
-If this work is helpful for your research, please consider citing the following BibTeX entry.
+If this work is helpful for your research, please consider citing the following BibTeX entries.
 
 ```
 @article{Ibrahim2023SAT3D,
