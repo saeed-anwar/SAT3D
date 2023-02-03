@@ -2,7 +2,7 @@
 
 This repository is an official implementation
 Muhammad Ibrahim, Naveed Akhtar, [Saeed Anwar](https://saeed-anwar.github.io/), and [Ajmal Mian](https://ajmalsaeed.net/),
-[SAT3D: Slot Attention Transformer for 3D Point Cloud Semantic Segmentation](https://arxiv.org/), IEEE Transactions on Intelligent Transportation Systems.
+"[SAT3D: Slot Attention Transformer for 3D Point Cloud Semantic Segmentation](https://arxiv.org/)", IEEE Transactions on Intelligent Transportation Systems.
 
 
 ### Coming soon
