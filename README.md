@@ -24,7 +24,7 @@ By Muhammad Ibrahim, Naveed Akhtar, [Saeed Anwar](https://saeed-anwar.github.io/
 
 **Comparison of the SWAN (proposed) with Semantic KITTI and nuScenes dataset**
 
-| Properties              | Ours          | Sem-KITTI      | nuScenes    | 
+| Properties              | Ours          | Semantic KITTI | nuScenes    | 
 | :---:                   | :---:         | :---:          | :---:       |  
 | Classes                 | 24            | 19             | 16          |
 | Max points per frame    | 131K          | 131K           | 65K         |
