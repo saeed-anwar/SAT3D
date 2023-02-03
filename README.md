@@ -1,6 +1,6 @@
 # SAT3D
 
-This repository is an official implementation of the [SAT3D: Slot Attention Transformer for 3D Point Cloud Semantic Segmentation](https://arxiv.org/).
+This repository is an official implementation of the [SAT3D: Slot Attention Transformer for 3D Point Cloud Semantic Segmentation](https://arxiv.org/), IEEE Transactions on Intelligent Transportation Systems  
 
 By Muhammad Ibrahim, Naveed Akhtar, Saeed Anwar, and Ajmal Mian
 ## News
@@ -14,9 +14,8 @@ By Muhammad Ibrahim, Naveed Akhtar, Saeed Anwar, and Ajmal Mian
 
 ## Introduction
 
-**InternImage**, initially described in [arxiv](https://arxiv.org/abs/2211.05778), can be a general backbone for computer vision.
-It takes deformable convolution as the core operator to obtain large effective receptive fields, and introducing adaptive spatial aggregation
-to reduces the strict inductive bias. Our model makes it possible to learn more stronger and robust models with large-scale parameters from massive data.
+**InternImage**, initially described in [arxiv](https://arxiv.org/abs/2211.05778), Semantic segmentation of the 3D point cloud is a key task in numerous intelligent transportation system applications, \eg self-driving vehicles, traffic monitoring.Due to the sparsity and varying density of  points in the outdoor point clouds, it becomes  particularly challenging to extract object-centric features from data. This leads to poor semantic segmentation, especially for the rare object classes. 
+To address that, we introduce the first-ever Slot Attention Transformer based technique to effectively model object-centric features in point cloud data. Our method uses cylindrical splits of space for voxelization and computes channel-wise positional embeddings before repetitively encoding the point cloud with slot attentions. Our second major contribution is a Large-Scale Outdoor Point Cloud dataset (SWAN), collected in a dense urban environment, driving 150km distance. It provides 16 billion points in more than 200K frames. The dataset also provides annotations for 10K frames for 24 classes. We also contribute a data augmentation scheme to handle rare object classes in real-world point clouds. Besides benchmarking popular existing methods on SWAN for the first time, we thoroughly evaluate our technique on the existing large-scale datasets, Semantic KITTI and nuScenes. Our results demonstrate a consistent performance gain for our technique and verify the need of the more challenging SWAN dataset. 
 
 <div align=center>
 <img src='./figs/arch.png' width=400>
@@ -35,16 +34,6 @@ to reduces the strict inductive bias. Our model makes it possible to learn more 
 | InternImage-XL | ImageNet-22K | 384x384 | 88.0 | 335M | 163G |
 
 ## Main Results on Downstream Tasks
-
-**COCO Object Detection**
-
-| backbone | method | lr schedule | box mAP | mask mAP | #params | FLOPs |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| InternImage-T | Mask R-CNN | 1x | 47.2 | 42.5 | 49M | 270G |
-| InternImage-S | Mask R-CNN | 1x | 47.8 | 43.3 | 69M | 340G |
-| InternImage-B | Mask R-CNN | 1x | 48.8 | 44.0 | 115M | 501G |
-| InternImage-L | Cascade Mask R-CNN | 1x | 54.9 | 47.7 | 277M | 1399G |
-| InternImage-XL | Cascade Mask R-CNN | 1x | 55.3 | 48.0 | 387M | 1782G |
 
 **ADE20K Semantic Segmentation**
 
