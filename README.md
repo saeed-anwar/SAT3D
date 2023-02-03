@@ -24,6 +24,8 @@ Muhammad Ibrahim, Naveed Akhtar, [Saeed Anwar](https://saeed-anwar.github.io/), 
 
 **Annotated points per class (millions), instances per class (thousands), and average points per instance (thousands) in the proposed SWAN dataset**
 |   | Car  |  Truck |  Ped | Bicycle | M-Cycle | Bus |Bridge | Tree | Bushes |Building | Road | Rub-Bin  | Bus-Stop |Light-Pole | Traffic-Sig| Road-WC | Letter-Box |SidePath |  Road Exit | Adv-Board |RS-Board| Wall  | R-Divider| 
+| :---:| :---:| :---:| :---:| :---:| :---:| :---: | :---:| :---:| :---:| :---:| :---:| :---:| :---:| :---:| :---:|:---:| :---:| :---:| :---:| :---:| :---:| :---:| :---:| 
+
 
 |Points per class (M) |18.4 | 0.29 | 0.6 | 0.4 | 0.03 | 2.91 | 1.12 |   {124.7 |2.41| 162.1 | 122.7 | 0.9 | 1.1| 3.7 | 2.7 | 0.03 | 0.01 | 0.8 | 0.01 | 0.2 | 2.8 | 9.8 | 9.41| 
 
